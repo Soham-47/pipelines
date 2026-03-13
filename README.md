@@ -1,6 +1,6 @@
-# skdeep
+# pipelines
 
-A minimal collection of PyTorch examples for learning core deep learning concepts.
+A minimal collection of PyTorch pipelines for learning core deep learning concepts.
 
 ## Getting Started
 
@@ -11,20 +11,17 @@ A minimal collection of PyTorch examples for learning core deep learning concept
 torch torchvision
 ```
 
-3. Run an example (e.g., RNN):
-
-```bash
-python rnn/rnn.py
-```
+3. Run a pipeline (e.g., RNN):
 
 ## Structure
 
 - `base_ann.py` — simple feedforward network
-- `cnn/` — LeNet example
-- `rnn/` — RNN/LSTM examples
+- `cnn/` — pipeline baed on CNN variants 
+- `transformers`- pipelines with transformer variants  
 
 ## License
 
 MIT
+
 
 

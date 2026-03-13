@@ -1,83 +1,30 @@
-# Deep Learning Models in PyTorch
+# skdeep
 
-A clean implementation of fundamental deep learning architectures built from scratch using PyTorch. This project focuses on understanding core concepts by implementing classic models without relying on pre-built architectures.
+A minimal collection of PyTorch examples for learning core deep learning concepts.
 
-## Models Implemented
+## Getting Started
 
-### Artificial Neural Network (ANN)
-Fully connected neural network for basic classification tasks.
+1. Create and activate a Python environment (recommended).
+2. Install dependencies:
 
-**Architecture:**
-- Configurable hidden layers
-- ReLU activation functions
-- Softmax output layer
-- Cross-entropy loss
+```bash
+torch torchvision
+```
 
-**Use Cases:**
-- MNIST digit classification
-- Tabular data classification
-- Feature-based learning tasks
+3. Run an example (e.g., RNN):
 
-### LeNet-5
-Classic convolutional neural network introduced by Yann LeCun (1998).
+```bash
+python rnn/rnn.py
+```
 
-**Architecture:**
-- 2 Convolutional layers
-- 2 Average pooling layers
-- 3 Fully connected layers
-- Original design for handwritten digit recognition
+## Structure
 
-**Use Cases:**
-- Image classification (small images)
-- Character recognition
-- Simple computer vision tasks
-
-
-**Requirements:**
-- Python 3.8+
-- PyTorch 2.0+
-- torchvision
-
-
-## Features
-
-- Clean, readable code with comments
-- Modular architecture (easy to extend)
-- Training/validation split
-- Model checkpointing
-- TensorBoard logging (optional)
-- GPU support with automatic device detection
-
-
-### Upcoming Models
-- [ ] AlexNet
-- [ ] VGG
-- [ ] ResNet
-- [ ] RNN
-- [ ] LSTM
-- [ ] GRU
-- [ ] Transformer
-
-### Future Enhancements
-- [ ] Data augmentation pipeline
-- [ ] Learning rate scheduling
-- [ ] Mixed precision training
-- [ ] Model export (ONNX)
-- [ ] Web demo
+- `base_ann.py` — simple feedforward network
+- `cnn/` — LeNet example
+- `rnn/` — RNN/LSTM examples
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
-
-
-## Contact
-
-**Author:** Soham Saha 
-**Email:** sohamsaha291@gmail.com
-
----
-
-
-
+MIT
 
 

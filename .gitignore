@@ -1,2 +1,6 @@
 .venv
 .pth
+d2l_env
+exercises
+transformer_guide*.py
+data
